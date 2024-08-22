@@ -1,0 +1,48 @@
+ul{
+    list-style-type:none ;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li{
+    position: relative;
+    float: left;
+    width: 100px;
+    padding: 10px;
+}
+
+.menu ul li ul{
+    display: none; 
+}
+
+.menu ul li:hover ul{
+    /* hover üzerine geldiğimiz de demek üzerine geldiğimizde açılacak*/
+    display: block;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(128, 179, 255);
+    background-color:rgb(152, 228, 255);
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    
+}
+
+.menu li a:hover{
+    background-color:rgb(128, 179, 255); 
+    color: rgb(152, 228, 255);;
+}
+
+.menu ul li{
+    border:1px white solid ;
+    margin: 4px;
+}
+
+.menu ul li ul li a{
+    padding-right: 5px;
+    margin:5px;
+}

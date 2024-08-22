@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25 Ekim 2023</title>
+    <link rel="stylesheet" type="text/css" href="jsCss.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="div1">
+        <h4>İlk JS Algoritması</h4>
+        <input type="submit" class="btn" name="btnMesaj" value="Mesaj Ver" onclick="MesajVer()">
+    </div>
+
+    <div  id="div2" style="display: none;" >
+        <hr>
+        <h4>GetElementsByClassName-String Birleştirme </h4>
+        <input type="input" id="txtAd" type="text" class="input"> <br>
+        <input type="input" id="txtSoyad" type="text" class="input"> <br>
+        <input type="submit" class="btn" name="btnBilgi" value="Kontrol" onclick="AdSoyadYazdir()"> </button>
+    </div>
+
+    <div id="div3" style="display: none;">
+        <hr>
+        <h4>Fonksiyona Parametre Gönderilmesi - onChange Kullanılması - innerHTML</h4>
+        Renk Seçiniz: <select name="renkler" onchange="Renklendir(this)">
+        <option selected>red</option>
+        <option> Blue
+        <option> Green
+        <option> Yellow
+        <option> Black
+        </select>
+        <br>
+        <p id="renkText"></p>
+    </div>
+
+    <div id="div4" class="normal" style="display: none;">
+        <hr>
+        <h4> Class Değiştirme - setAttrubite</h4>
+        <input type="submit" class="btn" value="Dar" onclick="classDegistir(this)">
+        <input type="submit" class="btn" value="Geniş" onclick="classDegistir(this)">
+        <input type="submit" class="btn" value="Normal" onclick="classDegistir(this)">
+    </div>
+    <div id="div5" style="display: none;">
+        <hr>
+        <h4>Diziler ve Döngüler - JS ile HTML Yazdırma</h4>
+        Alınacak Dersleri İşaretleyiniz <br>
+        <input type="checkbox" id="cb1" onclick="AddOrRemove(this)">
+        <label for="cb1">Algoritmalar</label> <br>
+        <input type="checkbox" id="cb2" onclick="AddOrRemove(this)">
+        <label for="cb2">Web Programlama</label> <br>
+        <input type="checkbox" id="cb3" onclick="AddOrRemove(this)">
+        <label for="cb3">Veri Tabanı</label> <br>
+        <input type="submit" class="btn" value="Dersleri Yazdır" onclick="DersYazdir()" >
+        <p id="dersler"></p>
+
+    </div>
+    <div id="div6" style="display: none;">
+        <hr>
+        <h4>onMouseOver</h4>
+        Kullanıcı Adı
+        <input type="text" class="input" style="position: absolute; " id="txtKullaniciAdi">
+        <br><br>
+        Şifre
+        <input type="password" class="input" style="position: absolute; " id="txtSifre">
+        <br><br>
+        <input type="submit" class="btn" style="position: absolute;" id="btnGiris" value="Giriş" onmouseover="Giris()" onclick="girisYapildi()">
+    </div>
+
+
+</body>
+</html>

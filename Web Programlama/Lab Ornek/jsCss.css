@@ -1,0 +1,22 @@
+input {
+font-weight: bold;
+font-family: Cambria;
+color: red;
+border: 1px solid black;
+margin-top: 2px;
+width: 100px;
+}
+
+.btn{
+width: 100px;
+border: 1px solid black;
+}
+
+.genis{padding: 10px; font-size: 12pt; font-weight: bold;}
+.dar{padding: 0px; font-size: 8pt; font-weight: normal;}
+.normal{padding: 5px; font-size: 10pt; font-weight: normal;}
+
+
+#div4{
+    border: 1px solid red;
+}
